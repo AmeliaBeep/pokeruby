@@ -1,8 +1,8 @@
 #ifndef GUARD_BASE_STATS_H
 #define GUARD_BASE_STATS_H
 
-// Maximum value for a female Pokémon is 254 (MON_FEMALE) which is 100% female.
-// 255 (MON_GENDERLESS) is reserved for genderless Pokémon.
+// Maximum value for a female Pokï¿½mon is 254 (MON_FEMALE) which is 100% female.
+// 255 (MON_GENDERLESS) is reserved for genderless Pokï¿½mon.
 #define PERCENT_FEMALE(percent) min(254, ((percent * 255) / 100))
 #define OLD_UNOWN_BASE_STATS                \
     {                                       \
@@ -8739,12 +8739,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ZIGZAGOON] =
     {
-        .baseHP        = 38,
-        .baseAttack    = 30,
-        .baseDefense   = 41,
-        .baseSpeed     = 60,
-        .baseSpAttack  = 30,
-        .baseSpDefense = 41,
+        .baseHP        = 78,
+        .baseAttack    = 70,
+        .baseDefense   = 61,
+        .baseSpeed     = 100,
+        .baseSpAttack  = 50,
+        .baseSpDefense = 61,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_NORMAL,
         .catchRate = 255,
