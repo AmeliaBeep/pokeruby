@@ -577,6 +577,11 @@ const u8 DecorDesc_REGISTEEL_DOLL[] = _(
     "sie auf eine Matte\n"
     "oder den Tisch.");
 
+const u8 DecorDesc_ZIGZAGOON_DOLL[] = _(
+    "ZIGZACHS-Puppe. Leg\n"
+    "sie auf eine Matte\n"
+    "oder einen Tisch.");
+
 #define DECORNAME_SMALL_DESK _("KLEINER TISCH")
 #define DECORNAME_POKEMON_DESK _("POKéMONTISCH")
 #define DECORNAME_HEAVY_DESK _("SCHWERER TISCH")
@@ -697,3 +702,4 @@ const u8 DecorDesc_REGISTEEL_DOLL[] = _(
 #define DECORNAME_REGIROCK_DOLL _("REGIROCK-PUPPE")
 #define DECORNAME_REGICE_DOLL _("REGICE-PUPPE")
 #define DECORNAME_REGISTEEL_DOLL _("REGISTEEL-PUPP.")
+#define DECORNAME_ZIGZAGOON_DOLL _("ZIGZACHS-PUPPE")

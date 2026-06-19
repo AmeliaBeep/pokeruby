@@ -48,6 +48,7 @@ LilycoveCity_DepartmentStore_5F_Pokemart_Dolls:: @ 815A078
 	.2byte DECOR_REGIROCK_DOLL
 	.2byte DECOR_REGICE_DOLL
 	.2byte DECOR_REGISTEEL_DOLL
+	.2byte DECOR_ZIGZAGOON_DOLL
 	.2byte ITEM_NONE
 	release
 	end

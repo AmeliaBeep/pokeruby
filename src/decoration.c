@@ -622,6 +622,12 @@ const u8 DecorDesc_REGISTEEL_DOLL[] = _(
     "A large doll.\n"
     "Place it on a mat\n"
     "or a desk.");
+
+const u8 DecorDesc_ZIGZAGOON_DOLL[] = _(
+    "A ZIGZAGOON doll.\n"
+    "Place it on a mat\n"
+    "or a desk.");
+
 #elif GERMAN
 #include "data/decoration/descriptions_de.h"
 #endif
@@ -1268,6 +1274,10 @@ const u16 DecorGfx_REGISTEEL_DOLL[] = {
     OBJ_EVENT_GFX_BIG_REGISTEEL_DOLL
 };
 
+const u16 DecorGfx_ZIGZAGOON_DOLL[] = {
+    OBJ_EVENT_GFX_ZIGZAGOON_DOLL
+};
+
 #if ENGLISH
 const struct Decoration gDecorations[] = {
     {DECOR_NONE,            _("SMALL DESK"),      DECORPERM_SOLID_FLOOR,  DECORSHAPE_1x1, DECORCAT_DESK,         0, DecorDesc_SMALL_DESK, DecorGfx_SMALL_DESK},
@@ -1390,7 +1400,8 @@ const struct Decoration gDecorations[] = {
     {DECOR_WAILMER_DOLL,    _("WAILMER DOLL"),     DECORPERM_SOLID_MAT,   DECORSHAPE_1x2, DECORCAT_DOLL,     10000, DecorDesc_WAILMER_DOLL, DecorGfx_WAILMER_DOLL},
     {DECOR_REGIROCK_DOLL,   _("REGIROCK DOLL"),    DECORPERM_SOLID_MAT,   DECORSHAPE_1x2, DECORCAT_DOLL,     10000, DecorDesc_REGIROCK_DOLL, DecorGfx_REGIROCK_DOLL},
     {DECOR_REGICE_DOLL,     _("REGICE DOLL"),      DECORPERM_SOLID_MAT,   DECORSHAPE_1x2, DECORCAT_DOLL,     10000, DecorDesc_REGICE_DOLL, DecorGfx_REGICE_DOLL},
-    {DECOR_REGISTEEL_DOLL,  _("REGISTEEL DOLL"),   DECORPERM_SOLID_MAT,   DECORSHAPE_1x2, DECORCAT_DOLL,     10000, DecorDesc_REGISTEEL_DOLL, DecorGfx_REGISTEEL_DOLL}
+    {DECOR_REGISTEEL_DOLL,  _("REGISTEEL DOLL"),   DECORPERM_SOLID_MAT,   DECORSHAPE_1x2, DECORCAT_DOLL,     10000, DecorDesc_REGISTEEL_DOLL, DecorGfx_REGISTEEL_DOLL},
+    {DECOR_ZIGZAGOON_DOLL,  _("ZIGZAGOON DOLL"),   DECORPERM_SOLID_MAT,   DECORSHAPE_1x1, DECORCAT_DOLL,      3000, DecorDesc_ZIGZAGOON_DOLL, DecorGfx_ZIGZAGOON_DOLL}
 };
 #elif GERMAN
 #include "data/decoration/decorations.h"

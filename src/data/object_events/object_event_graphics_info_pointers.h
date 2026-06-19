@@ -219,6 +219,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Azurill;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mom;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LinkBrendan;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LinkMay;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ZigzagoonDoll;
 
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =            &gObjectEventGraphicsInfo_BrendanNormal,
@@ -438,7 +439,8 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_AZURILL] =                   &gObjectEventGraphicsInfo_Azurill,
     [OBJ_EVENT_GFX_MOM] =                       &gObjectEventGraphicsInfo_Mom,
     [OBJ_EVENT_GFX_LINK_BRENDAN] =              &gObjectEventGraphicsInfo_LinkBrendan,
-    [OBJ_EVENT_GFX_LINK_MAY] =                  &gObjectEventGraphicsInfo_LinkMay
+    [OBJ_EVENT_GFX_LINK_MAY] =                  &gObjectEventGraphicsInfo_LinkMay,
+    [OBJ_EVENT_GFX_ZIGZAGOON_DOLL] =            &gObjectEventGraphicsInfo_ZigzagoonDoll,
 };
 
 #endif //POKERUBY_OBJECT_EVENT_GRAPHICS_INFO_POINTERS_H

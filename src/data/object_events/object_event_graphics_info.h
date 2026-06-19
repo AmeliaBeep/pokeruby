@@ -4139,3 +4139,22 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LinkMay = {
     .images = gObjectEventPicTable_MayNormal,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ZigzagoonDoll = {
+    .tileTag = 0xffff,
+    .paletteTag = 0x1103,
+    .bridgeReflectionPaletteTag = 0x11ff,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = 2,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = TRUE,
+    .disableReflectionPaletteLoad = FALSE,
+    .tracks = TRACKS_NONE,
+    .oam = &gFieldOamData_16x16,
+    .subspriteTables = gObjectEventSubspriteTables_16x16,
+    .anims = gObjectEventImageAnimTable_Inanimate,
+    .images = gObjectEventPicTable_ZigzagoonDoll,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};

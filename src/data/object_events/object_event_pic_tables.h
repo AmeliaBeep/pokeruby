@@ -1624,6 +1624,11 @@ const struct SpriteFrameImage gObjectEventPicTable_BigRegisteelDoll[] = {
     overworld_frame(gObjectEventPic_BigRegisteelDoll, 4, 4, 0)
 };
 
+const struct SpriteFrameImage gObjectEventPicTable_ZigzagoonDoll[] = {
+    overworld_frame(gObjectEventPic_ZigzagoonDoll, 2, 2, 0)
+};
+
+
 const struct SpriteFrameImage gObjectEventPicTable_LatiasLatios[] = {
     overworld_frame(gObjectEventPic_LatiasLatios, 4, 4, 0),
     overworld_frame(gObjectEventPic_LatiasLatios, 4, 4, 0),

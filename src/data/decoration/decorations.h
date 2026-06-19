@@ -1208,5 +1208,15 @@ const struct Decoration gDecorations[] = {
         .price = 10000,
         .description = DecorDesc_REGISTEEL_DOLL,
         .tiles = DecorGfx_REGISTEEL_DOLL,
+    },
+    {
+        .id = DECOR_ZIGZAGOON_DOLL,
+        .name = DECORNAME_ZIGZAGOON_DOLL,
+        .permission = DECORPERM_SOLID_MAT,
+        .shape = DECORSHAPE_1x1,
+        .category = DECORCAT_DOLL,
+        .price = 3000,
+        .description = DecorDesc_ZIGZAGOON_DOLL,
+        .tiles = DecorGfx_ZIGZAGOON_DOLL,
     }
 };
