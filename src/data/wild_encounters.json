@@ -603,7 +603,7 @@
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_SOLROCK"
+                "species": "SPECIES_LUNATONE"
               },
               {
                 "min_level": 18,
@@ -1377,7 +1377,7 @@
               {
                 "min_level": 10,
                 "max_level": 10,
-                "species": "SPECIES_MAWILE"
+                "species": "SPECIES_SABLEYE"
               },
               {
                 "min_level": 9,
@@ -3609,6 +3609,56 @@
                 "min_level": 38,
                 "max_level": 38,
                 "species": "SPECIES_MEDITITE"
+              },
+              {
+                "min_level": 35,
+                "max_level": 40,
+                "species": "SPECIES_KYOGRE"
+              },
+              {
+                "min_level": 35,
+                "max_level": 40,
+                "species": "SPECIES_GROUDON"
+              },
+              {
+                "min_level": 35,
+                "max_level": 40,
+                "species": "SPECIES_RAYQUAZA"
+              },
+              {
+                "min_level": 35,
+                "max_level": 40,
+                "species": "SPECIES_MEW"
+              },
+              {
+                "min_level": 35,
+                "max_level": 40,
+                "species": "SPECIES_MEWTWO"
+              },
+              {
+                "min_level": 35,
+                "max_level": 40,
+                "species": "SPECIES_HO_OH"
+              },
+              {
+                "min_level": 35,
+                "max_level": 40,
+                "species": "SPECIES_LUGIA"
+              },
+              {
+                "min_level": 35,
+                "max_level": 40,
+                "species": "SPECIES_CELEBI"
+              },
+              {
+                "min_level": 35,
+                "max_level": 40,
+                "species": "SPECIES_JIRACHI"
+              },
+              {
+                "min_level": 35,
+                "max_level": 40,
+                "species": "SPECIES_DEOXYS"
               }
             ]
           },
@@ -4938,7 +4988,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_SEEDOT"
+                "species": "SPECIES_LOTAD"
               },
               {
                 "min_level": 3,
@@ -6321,7 +6371,7 @@
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_ZANGOOSE"
+                "species": "SPECIES_SEVIPER"
               },
               {
                 "min_level": 16,
