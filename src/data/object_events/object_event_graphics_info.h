@@ -4142,12 +4142,12 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LinkMay = {
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ZigzagoonDoll = {
     .tileTag = 0xffff,
-    .paletteTag = 0x1103,
+    .paletteTag = OBJ_EVENT_PAL_TAG_ZIGDOLL,
     .bridgeReflectionPaletteTag = 0x11ff,
     .size = 128,
     .width = 16,
     .height = 16,
-    .paletteSlot = 2,
+    .paletteSlot = 10,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .disableReflectionPaletteLoad = FALSE,
