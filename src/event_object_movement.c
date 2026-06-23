@@ -377,6 +377,8 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_25 0x1119
 #define OBJ_EVENT_PAL_TAG_26 0x111A
 #define OBJ_EVENT_PAL_TAG_ZIGDOLL 0x111B
+#define OBJ_EVENT_PAL_TAG_ZIG 0x111C
+
 
 #define OBJ_EVENT_PAL_TAG_NONE 0x11FF
 
@@ -417,6 +419,7 @@ const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPalette25, OBJ_EVENT_PAL_TAG_25},
     {gObjectEventPalette26, OBJ_EVENT_PAL_TAG_26},
     {gObjectEventPalette_ZigzagoonDoll, OBJ_EVENT_PAL_TAG_ZIGDOLL},
+    {gObjectEventPalette_Zigzagoon, OBJ_EVENT_PAL_TAG_ZIG},
     {NULL,                  0x0000},
 };
 

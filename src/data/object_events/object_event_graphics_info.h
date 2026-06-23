@@ -3952,12 +3952,12 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rayquaza = {
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Zigzagoon = {
     .tileTag = 0xffff,
-    .paletteTag = 0x1103,
+    .paletteTag = OBJ_EVENT_PAL_TAG_ZIG,
     .bridgeReflectionPaletteTag = 0x11ff,
     .size = 128,
     .width = 16,
     .height = 16,
-    .paletteSlot = 2,
+    .paletteSlot = 10,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .disableReflectionPaletteLoad = FALSE,
