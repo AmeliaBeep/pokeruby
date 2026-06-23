@@ -5,3 +5,6 @@ OldaleTown_House1_Text_LeftPokemonGoesOutFirst:: @ 817476D
 	.string "stelle sie so der Reihe nach auf, wie es\l"
 	.string "für den Kampf am günstigsten ist.\p"
 	.string "Das kann ein Vorteil für dich sein.$"
+
+OldaleTown_House1_Text_Zigzagoon:: @ 817476E
+	.string "ZIGZACHS: Guguuh!$"
